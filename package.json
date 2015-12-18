@@ -1,0 +1,31 @@
+{
+  "name": "github-receiver",
+  "version": "1.0.0",
+  "description": "Receives a GitHub payload and deploys a nodejs project using a configuration file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/launchzap/github-receiver.git"
+  },
+  "keywords": [
+    "github",
+    "receiver",
+    "hook",
+    "payload",
+    "deploy"
+  ],
+  "author": "Pablo Andrés Dorado Suárez <im@pandres95.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/launchzap/github-receiver/issues"
+  },
+  "homepage": "https://github.com/launchzap/github-receiver#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "nodegit": "^0.6.3"
+  }
+}
