@@ -1,1 +1,6 @@
-{}
+{
+    "30032745": {
+        "type": "web",
+        "workdir": "data/launchzap"
+    }
+}
